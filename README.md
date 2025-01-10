@@ -1,4 +1,4 @@
-##[Social Media Performance Analysis - Pre-Hackathon Assignment]
+Social Media Performance Analysis - Pre-Hackathon Assignment
 
 Overview
 
