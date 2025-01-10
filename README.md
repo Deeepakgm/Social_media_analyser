@@ -5,7 +5,7 @@ The Social Media Performance Analysis project is a basic analytics tool develope
 Hackathon Details
 
     Assignment: Pre-Hackathon Social Media Performance Analysis
-    Deadline: January 8th, 2025
+    Deadline: January 10th, 2025
     Hackathon Link: Level Supermind Hackathon - Social Media Analysis
 
 Objective
@@ -57,7 +57,7 @@ How to Use
 
 Clone the repository to your local machine using the following command:
 
-git clone https://github.com/CodeAx1avek/Social-Media-Analysis.git
+git clone https://github.com/Deeepakgm/Social_media_analyser.git
 
 2. Install Dependencies
 
@@ -75,16 +75,6 @@ pip install -r requirements.txt
 
 4. Run the Application
 
-To run the app locally, execute the following command:
-
-    For Flask:
-
-flask run
-
-Or:
-
-python app.py
-
 This will start the app and make it accessible at http://localhost:5000.
 5. Interact with the Web Interface
 
@@ -98,7 +88,7 @@ The web interface allows users to:
 
 Here’s a link to the demo video where I explain how the project works:
 
-[Watch the Demo Video](https://youtu.be/mh8OztiQgt8?si=kvvuiI4uTjVFzHo7)
+[Watch the Demo Video]()
 
 In the video, I explain:
 - How Langflow was used to create the workflow.
