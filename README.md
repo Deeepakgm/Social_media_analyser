@@ -13,15 +13,15 @@ Objective
 The main objective of this project was to develop an analytics module that:
 
     Simulates engagement data for social media posts (likes, shares, comments).
+    Provides insights using Groq based on the analyzed data.
     Stores this data in DataStax Astra DB.
     Analyzes post performance based on these metrics.
-    Provides insights using Groq based on the analyzed data.
 
 Tools & Technologies Used
 
     DataStax Astra DB: Cloud-based database used to store and query social media engagement data.
-    Langflow: A workflow creation tool that integrates with Groq to generate insights from the data.
     Groq: An AI-powered language model integrated into Langflow to generate insights from engagement data.
+    Langflow: A workflow creation tool that integrates with Groq to generate insights from the data.
     Chart.js: A JavaScript library used to visualize the data in bar charts (for likes, shares, and comments).
     HTML/CSS/JavaScript: Front-end technologies used to build the user interface of the web application.
 
@@ -31,9 +31,9 @@ Features
 A small mock dataset was generated representing social media engagement data for different post types (carousel, reels, static images). This dataset includes the following metrics:
 
     Likes
+    Post Types
     Shares
     Comments
-    Post Types
 
 The data was then stored in DataStax Astra DB for further analysis.
 2. Post Performance Analysis
@@ -48,8 +48,8 @@ This allows users to analyze and compare how different post types perform in ter
 
 With Groq integration via Langflow, insights were generated based on the engagement data. Example insights include:
 
-    "Carousel posts have 20% higher engagement than static posts."
     "Reels drive 2x more comments than static images or carousels."
+    "Carousel posts have 20% higher engagement than static posts."
 
 These insights help users understand the impact of different content types on social media engagement and assist in making data-driven decisions.
 How to Use
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 4. Run the Application
 
-This will start the app and make it accessible at http://localhost:5000.
+This will start the app and make it accessible at http://localhost:5500.
 5. Interact with the Web Interface
 
 The web interface allows users to:
